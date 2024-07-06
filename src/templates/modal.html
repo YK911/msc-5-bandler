@@ -1,0 +1,62 @@
+<div class="backdrop js-modal">
+  <div class="modal">
+    <loader
+      file="templates/button.html"
+      btn-class-name="modal-btn js-close-btn"
+      btn-content=""
+      has-icon="modal-btn-icon"
+      icon-path="./images/icons.svg#close-icon"
+    />
+    <p class="modal-caption">Leave your contacts and we will call you back</p>
+
+    <form class="modal-form" name="feedback_form">
+      <loader
+        file="templates/form-field.html"
+        field-content="Name"
+        filed-id="feedback_name"
+        icon-path="./images/icons.svg#user"
+        input-type="text"
+      />
+      <loader
+        file="templates/form-field.html"
+        field-content="Phone"
+        filed-id="feedback_phone"
+        icon-path="./images/icons.svg#phone"
+        input-type="tel"
+      />
+      <loader
+        file="templates/form-field.html"
+        field-content="Email"
+        filed-id="feedback_email"
+        icon-path="./images/icons.svg#mail"
+        input-type="email"
+      />
+
+      <div class="modal-form-field">
+        <label class="modal-form-label">Comment</label>
+        <textarea
+          class="modal-form-comment"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+
+      <div class="modal-agreement">
+        <label for="">
+          <input type="checkbox" />
+        </label>
+        <span>
+          I accept the terms and conditions of the
+          <a href="">Privacy Policy</a>
+        </span>
+      </div>
+
+      <loader
+        file="templates/button.html"
+        btn-class-name="modal-form-btn"
+        btn-content="Send"
+        has-icon="hide"
+        icon-path=""
+      />
+    </form>
+  </div>
+</div>

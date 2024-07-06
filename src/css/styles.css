@@ -1,8 +1,21 @@
 /* Utils styles */
+@import url('./utils/fonts.css');
 @import url('./utils/variables.css');
+@import url('./utils/normalize.css');
 @import url('./utils/reset.css');
+
 /* Base styles */
 @import url('./base/common.css');
+@import url('./base/container.css');
+
 /* Components styles */
+@import url('./components/logo.css');
+@import url('./components/button.css');
 @import url('./components/header.css');
-@import url('./components/vite-promo.css');
+@import url('./components/navigation.css');
+@import url('./components/contacts.css');
+@import url('./components/hero.css');
+@import url('./components/footer.css');
+@import url('./components/modal.css');
+@import url('./components/modal-field.css');
+@import url('./components/grid.css');

@@ -1,0 +1,16 @@
+.logo {
+  margin-right: 76px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-dark {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+.logo-light {
+  color: var(--CLOUD, #f4f4fd);
+}

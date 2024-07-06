@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-menu-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+}
+
+.nav-menu-link:hover {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
