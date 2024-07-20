@@ -8,22 +8,40 @@
     
     
     <script type="module" crossorigin src="/msc-5-bandler/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/msc-5-bandler/assets/index-f113804f.css">
+    <link rel="stylesheet" href="/msc-5-bandler/assets/index-97ae5d67.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a href="#" class="logo">
+    <a href="#" class="logo">
   Web<span class="logo-dark">Studio</span>
 </a>
 
 
+    <nav class="nav mobile-menu js-mobile-menu" aria-hidden="true">
+      <button
+  class="btn menu-btn close-menu-btn js-close-menu"
+  type="button"
+  aria-label="Close menu button"
+  aria-controls="mobile-menu"
+  aria-expanded=""
+>
+  
+  <svg class="menu-btn-icon" width="24" height="24">
+    <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#close-icon"></use>
+  </svg>
+</button>
+
+
       <ul class="nav-menu">
         <li class="nav-menu-item">
-          <a href="https://google.com" target="_blank" class="nav-menu-link"
-            >Studio</a
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="nav-menu-link active"
           >
+            Studio
+          </a>
         </li>
         <li class="nav-menu-item">
           <a href="#" class="nav-menu-link">Portfolio</a>
@@ -32,11 +50,58 @@
           <a href="#" class="nav-menu-link">Contacts</a>
         </li>
       </ul>
+
+      <address class="contacts">
+        <a class="contacts-link accent" href="#">info@devstudio.com</a>
+        <a class="contacts-link" href="#">+11 (000) 111-11-11</a>
+      </address>
+
+      <ul class="socials header-socials">
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
     </nav>
-    <address class="contacts">
-      <a class="contacts-link" href="#">info@devstudio.com</a>
-      <a class="contacts-link" href="#">+11 (000) 111-11-11</a>
-    </address>
+
+    <button
+  class="btn menu-btn js-open-menu"
+  type="button"
+  aria-label="Open menu button"
+  aria-controls="mobile-menu"
+  aria-expanded="false"
+>
+  
+  <svg class="menu-btn-icon" width="24" height="24">
+    <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#menu"></use>
+  </svg>
+</button>
+
   </div>
 </header>
 
@@ -45,7 +110,13 @@
       <section class="hero">
   <div class="container">
     <h1 class="hero-title">Effective Solutions for Your Business</h1>
-    <button class="btn hero-btn js-open-btn" type="button">
+    <button
+  class="btn hero-btn js-open-btn"
+  type="button"
+  aria-label=""
+  aria-controls=""
+  aria-expanded=""
+>
   Order Service
   <svg class="hide" width="24" height="24">
     <use href=""></use>
@@ -55,7 +126,249 @@
   </div>
 </section>
 
-      <section>
+      <section class="team">
+  <div class="container">
+    <h2 class="team-title">Our Team</h2>
+    <ul class="team-list">
+      <li class="team-item">
+        <img
+          class="team-ill"
+          srcset="/msc-5-bandler/assets/img-1-f1832f27.jpg 1x, /msc-5-bandler/assets/img-1@2x-020dbace.jpg 2x"
+          src="/msc-5-bandler/assets/img-1-f1832f27.jpg"
+          alt=""
+        />
+        <div class="team-wrapper">
+          <h3 class="team-caption">Mark Guerrero</h3>
+          <p class="team-position">Product Designer</p>
+          <ul class="socials team-socials">
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </li>
+      <li class="team-item">
+        <img
+          class="team-ill"
+          srcset="/msc-5-bandler/assets/img-2-69994593.jpg 1x, /msc-5-bandler/assets/img-2@2x-d327cb55.jpg 2x"
+          src="/msc-5-bandler/assets/img-2-69994593.jpg"
+          alt=""
+        />
+        <div class="team-wrapper">
+          <h3 class="team-caption">Tom Ford</h3>
+          <p class="team-position">Frontend Developer</p>
+          <ul class="socials team-socials">
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </li>
+      <li class="team-item">
+        <img
+          class="team-ill"
+          srcset="/msc-5-bandler/assets/img-3-5de2c38e.jpg 1x, /msc-5-bandler/assets/img-3@2x-fccbf3d0.jpg 2x"
+          src="/msc-5-bandler/assets/img-3-5de2c38e.jpg"
+          alt=""
+        />
+        <div class="team-wrapper">
+          <h3 class="team-caption">Camila Garcia</h3>
+          <p class="team-position">Marketing</p>
+          <ul class="socials team-socials">
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </li>
+      <li class="team-item">
+        <img
+          class="team-ill"
+          srcset="/msc-5-bandler/assets/img-4-3a0bfd48.jpg 1x, /msc-5-bandler/assets/img-4@2x-230a94ed.jpg 2x"
+          src="/msc-5-bandler/assets/img-4-3a0bfd48.jpg"
+          alt=""
+        />
+        <div class="team-wrapper">
+          <h3 class="team-caption">Daniel Wilson</h3>
+          <p class="team-position">UI Designer</p>
+          <ul class="socials team-socials">
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#twitter"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="socials-item">
+    <a href="" class="socials-link">
+      <svg class="socials-icon" width="24" height="24">
+        <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#linkedin"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="portfolio">
+  <div class="container">
+    <h2 class="portfolio-title">Our Portfolio</h2>
+    <ul class="portfolio-list">
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-1-4818eecd.jpg 1x, /msc-5-bandler/assets/img-1@2x-8d34714e.jpg 2x"
+    src="images/portfolio/img-1_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-2-56b59220.jpg 1x, /msc-5-bandler/assets/img-2@2x-f65484ea.jpg 2x"
+    src="images/portfolio/img-2_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-3-5d1cff90.jpg 1x, /msc-5-bandler/assets/img-3@2x-1fdc0453.jpg 2x"
+    src="images/portfolio/img-3_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-4-360015a5.jpg 1x, /msc-5-bandler/assets/img-4@2x-99aead84.jpg 2x"
+    src="images/portfolio/img-4_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-5-9e5b0618.jpg 1x, /msc-5-bandler/assets/img-5@2x-83ce7c72.jpg 2x"
+    src="images/portfolio/img-5_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+      <li>
+  <img
+    srcset="/msc-5-bandler/assets/img-6-2057fe3f.jpg 1x, /msc-5-bandler/assets/img-6@2x-057ec926.jpg 2x"
+    src="images/portfolio/img-6_desk.jpg"
+    alt=""
+    loading="lazy"
+  />
+</li>
+
+    </ul>
+  </div>
+</section>
+
+      <section class="hide">
   <div class="container">
     <div class="skills-wrapper">
       <article class="skills-card first">1</article>
@@ -84,10 +397,16 @@
 
     <div class="backdrop js-modal">
   <div class="modal">
-    <button class="btn modal-btn js-close-btn" type="button">
+    <button
+  class="btn modal-btn js-close-btn"
+  type="button"
+  aria-label="{=$btn-label}"
+  aria-controls="{=$controls}"
+  aria-expanded="{=$is-open}"
+>
   
   <svg class="modal-btn-icon" width="24" height="24">
-    <use href="/msc-5-bandler/assets/icons-8ae75acf.svg#close-icon"></use>
+    <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#close-icon"></use>
   </svg>
 </button>
 
@@ -100,11 +419,11 @@
     <input
       class="modal-form-input"
       type="text"
-      id="{=$filed-id}"
-      name="{=$filed-id}"
+      id="feedback_name"
+      name="feedback_name"
     />
     <svg class="modal-form-icon" width="18" height="24">
-      <use href="/msc-5-bandler/assets/icons-8ae75acf.svg#user"></use>
+      <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#user"></use>
     </svg>
   </div>
 </div>
@@ -115,11 +434,11 @@
     <input
       class="modal-form-input"
       type="tel"
-      id="{=$filed-id}"
-      name="{=$filed-id}"
+      id="feedback_phone"
+      name="feedback_phone"
     />
     <svg class="modal-form-icon" width="18" height="24">
-      <use href="/msc-5-bandler/assets/icons-8ae75acf.svg#phone"></use>
+      <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#phone"></use>
     </svg>
   </div>
 </div>
@@ -130,11 +449,11 @@
     <input
       class="modal-form-input"
       type="email"
-      id="{=$filed-id}"
-      name="{=$filed-id}"
+      id="feedback_email"
+      name="feedback_email"
     />
     <svg class="modal-form-icon" width="18" height="24">
-      <use href="/msc-5-bandler/assets/icons-8ae75acf.svg#mail"></use>
+      <use href="/msc-5-bandler/assets/icons-9c144f6d.svg#mail"></use>
     </svg>
   </div>
 </div>
@@ -158,7 +477,13 @@
         </span>
       </div>
 
-      <button class="btn modal-form-btn" type="button">
+      <button
+  class="btn modal-form-btn"
+  type="button"
+  aria-label="{=$btn-label}"
+  aria-controls="{=$controls}"
+  aria-expanded="{=$is-open}"
+>
   Send
   <svg class="hide" width="24" height="24">
     <use href=""></use>
