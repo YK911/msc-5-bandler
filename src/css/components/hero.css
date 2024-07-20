@@ -10,12 +10,12 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero-bg.jpg');
+    url('/images/hero-bg.jpg');
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    image-set(url('../images/hero-bg.webp') type('image/webp'));
+    image-set(url('/images/hero-bg.webp') type('image/webp'));
 }
 
 @media (min-resolution: 192dpi) {
@@ -24,12 +24,12 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero-bg@2x.jpg');
+      url('/images/hero-bg@2x.jpg');
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      image-set(url('../images/hero-bg@2x.webp') type('image/webp'));
+      image-set(url('/images/hero-bg@2x.webp') type('image/webp'));
   }
 }
 
