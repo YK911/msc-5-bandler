@@ -17,3 +17,33 @@ body {
     font-weight: 400;
   }
 }
+
+.hide {
+  display: none;
+}
+
+.team,
+.portfolio {
+  padding: 96px 0;
+}
+@media only screen and (min-width: 115s8px) {
+  .team,
+  .portfolio {
+    padding: 120px 0;
+  }
+}
+
+.team-title,
+.portfolio-title {
+  margin-bottom: 72px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+}

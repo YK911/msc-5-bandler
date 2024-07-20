@@ -1,17 +1,32 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
+    <loader
+      file="templates/logo.html"
+      logo-modifier="logo-dark"
+      logo-class="logo"
+    />
+
+    <nav class="nav mobile-menu js-mobile-menu" aria-hidden="true">
       <loader
-        file="templates/logo.html"
-        logo-modifier="logo-dark"
-        logo-class="logo"
+        file="templates/button.html"
+        btn-class-name="menu-btn close-menu-btn js-close-menu"
+        btn-content=""
+        btn-label="Close menu button"
+        has-icon="menu-btn-icon"
+        icon-path="images/icons.svg#close-icon"
+        controls="mobile-menu"
+        is-open=""
       />
 
       <ul class="nav-menu">
         <li class="nav-menu-item">
-          <a href="https://google.com" target="_blank" class="nav-menu-link"
-            >Studio</a
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="nav-menu-link active"
           >
+            Studio
+          </a>
         </li>
         <li class="nav-menu-item">
           <a href="#" class="nav-menu-link">Portfolio</a>
@@ -20,10 +35,24 @@
           <a href="#" class="nav-menu-link">Contacts</a>
         </li>
       </ul>
+
+      <address class="contacts">
+        <a class="contacts-link accent" href="#">info@devstudio.com</a>
+        <a class="contacts-link" href="#">+11 (000) 111-11-11</a>
+      </address>
+
+      <loader file="templates/socials.html" location="header-socials" />
     </nav>
-    <address class="contacts">
-      <a class="contacts-link" href="#">info@devstudio.com</a>
-      <a class="contacts-link" href="#">+11 (000) 111-11-11</a>
-    </address>
+
+    <loader
+      file="templates/button.html"
+      btn-class-name="menu-btn js-open-menu"
+      btn-content=""
+      btn-label="Open menu button"
+      has-icon="menu-btn-icon"
+      icon-path="images/icons.svg#menu"
+      controls="mobile-menu"
+      is-open="false"
+    />
   </div>
 </header>

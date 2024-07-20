@@ -23,7 +23,7 @@
   transform: translate(-50%, -76%);
   opacity: 0;
   max-width: 408px;
-  width: 100%;
+  width: 90%;
   min-height: 584px;
   padding: 24px;
   padding-top: 72px;
@@ -53,6 +53,10 @@
 }
 .modal-form-label {
 }
+.modal-form-icon {
+  fill: none;
+  stroke: rgba(46, 47, 66, 1);
+}
 .modal-form-comment {
   display: block;
   width: 100%;
@@ -71,6 +75,9 @@
   }
 }
 .modal-agreement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-top: 16px;
   margin-bottom: 24px;
   /* Small Text */

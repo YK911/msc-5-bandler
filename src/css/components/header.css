@@ -1,4 +1,18 @@
+@media only screen and (max-width: 767px) {
+  .header {
+    padding: 16px 0;
+  }
+}
+
 .header > .container {
   display: flex;
   align-items: center;
+}
+
+.header-socials {
+  --link-bg-normal: rgba(77, 90, 229, 1);
+  --link-bg-active: rgba(49, 208, 170, 1);
+  --link-size: 40px;
+  --link-gap: 40px;
+  --icon-size: 24px;
 }

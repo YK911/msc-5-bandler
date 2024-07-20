@@ -1,8 +1,27 @@
 .contacts {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  flex-direction: column;
+  gap: 12px;
 }
-.contacts-link {
-  padding: 24px 0;
+
+@media only screen and (min-width: 1158px) {
+  .contacts {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1158px) {
+  .contacts-link {
+    color: var(--SLATE, #434455);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .contacts-link {
+    padding: 24px 0;
+  }
 }

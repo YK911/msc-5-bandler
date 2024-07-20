@@ -11,11 +11,15 @@
 /* Components styles */
 @import url('./components/logo.css');
 @import url('./components/button.css');
-@import url('./components/header.css');
 @import url('./components/navigation.css');
+@import url('./components/header.css');
 @import url('./components/contacts.css');
 @import url('./components/hero.css');
 @import url('./components/footer.css');
 @import url('./components/modal.css');
 @import url('./components/modal-field.css');
 @import url('./components/grid.css');
+@import url('./components/socials.css');
+@import url('./components/mobile-menu.css');
+@import url('./components/team.css');
+@import url('./components/portfolio.css');
